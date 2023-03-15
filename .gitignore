@@ -1,0 +1,40 @@
+'node_modules' 
+'.temp' 
+'.cache' 
+
+.bak
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Meta files
+TODOs.md
+
+# Editors
+.idea
+
+# VuePress temp directory
+.temp
+
+# Docs dist directory
+/vuepress
+
+# Typescript build dist
+packages/@vuepress/shared-utils/lib/
+packages/@vuepress/shared-utils/types/
+node_modules
+/docs/*.bak
+*.bak
+themeHope
+
+node_modules/
+themeHope/.vuepress/.cache/
+themeHope/.vuepress/.temp/
+themeHope/.vuepress/dist/
+/docs/.vuepress/.cache
+.cache
+deps
+/docs/.vuepress/dist/
